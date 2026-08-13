@@ -2,3 +2,4 @@
 C-Programming-Example.csproj
 C-Programming-Example.slnx
 obj/
+bin/Debug/net10.0
