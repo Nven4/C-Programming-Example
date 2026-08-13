@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int hour = Convert.ToInt16(Console.ReadLine());
+            int minute = Convert.ToInt16(Console.ReadLine());
+
+            Degree degree = new Degree(hour, minute);
+
+            degree.Deconstruct(out double result);
+            Console.WriteLine(result);
         }
     }
 }
