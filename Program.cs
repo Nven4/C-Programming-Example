@@ -4,15 +4,9 @@
     {
         static void Main(string[] args)
         {
-            int hour = Convert.ToInt16(Console.ReadLine());
-            int minute = Convert.ToInt16(Console.ReadLine());
-
-            Degree degree = new Degree(hour, minute);
-            
-
-
-            degree.Deconstruct(out double result);
-            Console.WriteLine(result + ' ');
+            Day day = new Day("20/10/2034");
+            Console.WriteLine(day.Callculate());
+            Console.WriteLine((string)day);
         }
     }
 }
