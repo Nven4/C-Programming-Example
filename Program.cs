@@ -8,11 +8,8 @@
             int minute = Convert.ToInt16(Console.ReadLine());
 
             Degree degree = new Degree(hour, minute);
-            
 
-
-            degree.Deconstruct(out double result);
-            Console.WriteLine(result + ' ');
+            Console.WriteLine("Большее значение: " + degree.big + " " + "Меньшее значение: " + degree.small);
         }
     }
 }
