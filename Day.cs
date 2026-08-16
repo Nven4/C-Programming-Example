@@ -61,7 +61,7 @@ namespace C_Programming_Example
             return day.res_day switch
             {
                 0 => "Суббота",
-                1 => "Воскременье",
+                1 => "Воскреcенье",
                 2 => "Понедельник",
                 3 => "Вторник",
                 4 => "Среда",
