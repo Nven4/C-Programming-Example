@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Day day = new Day("20/10/2034");
-            Console.WriteLine(day.Callculate());
+            Day day = new Day(16,8,2026);
+            day.Callculate();
             Console.WriteLine((string)day);
         }
     }
