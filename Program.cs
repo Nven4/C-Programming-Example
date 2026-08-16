@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Day day = new Day(16,8,2026);
-            day.Callculate();
-            Console.WriteLine((string)day);
+            Password password = new Password(12, true, true);
+            Console.WriteLine(password.Generate());
         }
     }
 }
