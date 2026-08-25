@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Hack.Start("SUP");
+            Trieangle triangle = new Trieangle(5);
+            triangle.symbol = '1';
+            triangle.GenTriangle();
+            triangle.symbol = '^';
+            triangle.GenTriangle();
         }
     }
 }
