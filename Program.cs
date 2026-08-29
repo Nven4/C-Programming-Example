@@ -4,11 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Trieangle triangle = new Trieangle(5);
-            triangle.symbol = '1';
-            triangle.GenTriangle();
-            triangle.symbol = '^';
-            triangle.GenTriangle();
+            Caesar caeser = new Caesar("hello, world!", 5);
+            Console.WriteLine(caeser.Coding());
+            Console.WriteLine((string)caeser);
         }
     }
 }
