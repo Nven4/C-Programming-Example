@@ -4,9 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Caesar caeser = new Caesar("hello, world!", 5);
-            Console.WriteLine(caeser.Coding());
-            Console.WriteLine((string)caeser);
+            Python.startgame();
         }
     }
 }
